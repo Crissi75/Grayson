@@ -1,0 +1,133 @@
+.banner {
+  height: 750px;
+  background: url(../img/Rectangle\ 2.png) no-repeat center top/cover;
+}
+
+.banner__wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  gap: 50px;
+}
+
+.banner__header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.banner__title {
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 66.65px;
+  background: #000000b2;
+  padding: 17px 61px;
+  text-align: center;
+}
+
+.banner__text {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 29.33px;
+}
+
+.banner__button {
+  width: 131px;
+  background: #fff;
+  transition: 0.3s;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.banner__button-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 22px 0;
+  color: black;
+}
+
+.banner__button-text:hover {
+  background: #41a28e;
+  color: #fff;
+}
+
+.banner__jaced {
+  background: url(../img/bg.png) no-repeat center top/cover;
+  height: 404px;
+}
+
+.banner__jaced-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+}
+
+.banner__jaced-text {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26.66px;
+}
+
+.banner__jaced-title {
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 66.65px;
+  padding-bottom: 22px;
+}
+.banner__but {
+  width: 190px;
+  background: #fff;
+  transition: 0.3s;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.banner__but-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 22px 0;
+  color: #000;
+}
+
+.banner__but-text:hover {
+  background: #41a28e;
+  color: #fff;
+}
+
+@media screen and (max-width: 700px) {
+  .banner {
+    height: 600px;
+  }
+  .banner__title {
+    font-size: 40px;
+  }
+
+  .banner__text {
+    font-size: 20px;
+  }
+
+  .banner__button {
+    width: 100px;
+  }
+
+  .banner__button-text {
+    padding: 20px 0;
+  }
+  
+.banner__jaced-text {
+  font-size: 17px;
+}
+
+.banner__jaced-title {font-size: 40px;}
+
+.banner__but-text {padding: 18px 0;}
+
+}

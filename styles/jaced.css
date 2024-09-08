@@ -1,0 +1,131 @@
+.jaced__slogan {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 18px;
+  padding-top: 50px;
+  padding-bottom: 70px;
+}
+
+.jaced__title {
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 66.65px;
+  text-align: center;
+}
+
+.jaced__lead {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.75px;
+  text-align: center;
+  max-width: 496px;
+  color: rgba(102, 102, 102, 1);
+}
+
+.jaced__wrap {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+.jaced__card {
+  height: 442px;
+  display: flex;
+  flex-direction: column;
+  gap: 43px;
+  position: relative;
+  overflow: hidden;
+}
+
+.jaced__card-img {
+  max-width: 255px;
+  width: 100%;
+}
+
+.jaced__card-img img {
+  width: 100%;
+}
+
+.jaced__card-menu {
+  position: absolute;
+  bottom: -100px;
+  left: 0;
+  right: 0;
+  background: #000000b2;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  padding: 16px 20px;
+  color: #fff;
+  transition: 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.jaced__card:hover .jaced__card-menu {
+  bottom: 100px;
+}
+
+.jaced__text {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.text {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 29.33px;
+}
+
+.price {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23.99px;
+}
+
+.price__descount {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23.99px;
+  color: #666666;
+  position: relative;
+}
+
+.price__descount::after {
+  content: "";
+  position: absolute;
+  bottom: 8px;
+  left: 0;
+  width: 58px;
+  height: 3px;
+  background: rgba(144, 144, 144, 1);
+}
+
+.jaced__stock {
+  position: absolute;
+  padding: 10px 18px;
+  background: #4b484b;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.06px;
+  color: #ffffff;
+}
+
+.price__stock {
+  display: flex;
+  gap: 15px;
+}
+
+@media screen and (max-width: 970px) {
+  .jaced__wrap {
+      display: flex;
+   flex-wrap: wrap;
+   gap: 50px;
+  }
+}
